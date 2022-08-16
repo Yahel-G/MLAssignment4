@@ -1,0 +1,44 @@
+from msvcrt import kbhit
+from dataset.load_dataset import Dataset
+import numpy as np
+import pandas as pd
+from scikit_feature import mrmr, reliefF, RFE, f_classif, feature_ranking, SelectFdr
+from sklearn.svm import SVR
+from sklearn import preprocessing, feature_selection
+from sklearn.feature_selection import SelectKBest
+
+def examine(X, y, k):
+    n_features = X.shape[1]
+
+    mRMR_features = feature_selection.SelectKBest([mrmr(X, y, n_selected_features=k), k])
+    RFE_feat = RFE(SVR(kernel="linear"), n_features_to_select=1, step=1)
+    RFE_features = feature_selection.SelectKBest([RFE_feat.fit(X, y), n_features]) ################ might need to be k not n_features
+    relieff_features = feature_selection.SelectKBest([feature_ranking(reliefF(X, y)),n_features])
+    f_classif_Fdr_features = feature_selection.SelectKBest([SelectFdr(f_classif, alpha=0.1).fit(X, y), n_features])
+    f_classif_Fdr_features_scores = np.argsort(-f_classif_Fdr_features.score_func[0].scores_)
+
+    X_mRMR = X
+    X_RFE = X
+    X_relieff = X
+    X_f_classif_Fdr = X
+
+    mRMR_omissions = []
+    RFE_omissions = []
+    relieff_omissions = []
+    f_classif_Fdr_omissions = []
+
+    # for feat in range(n_features):
+    #     if mRMR_features.score_func[0][feat] >= k: # ranking starts from 0
+    #         mRMR_omissions.append[feat]
+    #     if RFE_features.score_func[0].ranking_[feat] > k: # ranking starts from 1
+    #         RFE_omissions.append[feat]
+    #     if relieff_features.score_func[0] >= k: # ranking starts from 0
+    #         relieff_omissions.append[feat]
+    
+
+
+    X_mRMR.drop(X_mRMR.columns[mRMR_omissions], axis=1)
+    X_RFE.drop(X_RFE.columns[RFE_omissions], axis=1)
+    X_relieff.drop(X_relieff.columns[relieff_omissions], axis=1)
+    X_f_classif_Fdr.drop(X_f_classif_Fdr.columns[f_classif_Fdr_omissions], axis=1)
+

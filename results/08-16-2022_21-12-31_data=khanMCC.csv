@@ -1,0 +1,181 @@
+,index,Dataset Name,Number of samples,Original Number of features,Filtering Algorithm,Learning algorithm,Number of features selected (K),CV Method,Fold,Measure Type,Measure Value
+0,0,khan,63,2308,f_classif_wrapper,GaussianNB(),1,Leave-one-out,2,MCC,0.38600514803543773
+1,1,khan,63,2308,RFE_wrapper,GaussianNB(),1,Leave-one-out,2,MCC,0.0033852710867561323
+2,2,khan,63,2308,relieff_wrapper,GaussianNB(),1,Leave-one-out,2,MCC,0.2026150023892851
+3,3,khan,63,2308,relaxed_lasso_wrapper,GaussianNB(),1,Leave-one-out,2,MCC,0.0761854104308259
+4,4,khan,63,2308,f_classif_wrapper,GaussianNB(),2,Leave-one-out,2,MCC,0.5798294555451207
+5,5,khan,63,2308,RFE_wrapper,GaussianNB(),2,Leave-one-out,2,MCC,0.07751329297843153
+6,6,khan,63,2308,relieff_wrapper,GaussianNB(),2,Leave-one-out,2,MCC,0.28117863285816197
+7,7,khan,63,2308,relaxed_lasso_wrapper,GaussianNB(),2,Leave-one-out,2,MCC,0.27353362680161925
+8,8,khan,63,2308,f_classif_wrapper,GaussianNB(),3,Leave-one-out,2,MCC,0.696440251296299
+9,9,khan,63,2308,RFE_wrapper,GaussianNB(),3,Leave-one-out,2,MCC,0.14788985743055666
+10,10,khan,63,2308,relieff_wrapper,GaussianNB(),3,Leave-one-out,2,MCC,0.5388667622599573
+11,11,khan,63,2308,relaxed_lasso_wrapper,GaussianNB(),3,Leave-one-out,2,MCC,0.22521241071826933
+12,12,khan,63,2308,f_classif_wrapper,GaussianNB(),4,Leave-one-out,2,MCC,0.7596113127221795
+13,13,khan,63,2308,RFE_wrapper,GaussianNB(),4,Leave-one-out,2,MCC,0.14579480173675213
+14,14,khan,63,2308,relieff_wrapper,GaussianNB(),4,Leave-one-out,2,MCC,0.5649526759217574
+15,15,khan,63,2308,relaxed_lasso_wrapper,GaussianNB(),4,Leave-one-out,2,MCC,0.22068135707069106
+16,16,khan,63,2308,f_classif_wrapper,GaussianNB(),5,Leave-one-out,2,MCC,0.7028876411675414
+17,17,khan,63,2308,RFE_wrapper,GaussianNB(),5,Leave-one-out,2,MCC,0.2211855291379013
+18,18,khan,63,2308,relieff_wrapper,GaussianNB(),5,Leave-one-out,2,MCC,0.5294348939496389
+19,19,khan,63,2308,relaxed_lasso_wrapper,GaussianNB(),5,Leave-one-out,2,MCC,0.25670225356779236
+20,20,khan,63,2308,f_classif_wrapper,GaussianNB(),10,Leave-one-out,2,MCC,0.6037190912080097
+21,21,khan,63,2308,RFE_wrapper,GaussianNB(),10,Leave-one-out,2,MCC,0.34843441987572554
+22,22,khan,63,2308,relieff_wrapper,GaussianNB(),10,Leave-one-out,2,MCC,0.501259326051493
+23,23,khan,63,2308,relaxed_lasso_wrapper,GaussianNB(),10,Leave-one-out,2,MCC,0.27560693634292394
+24,24,khan,63,2308,f_classif_wrapper,GaussianNB(),20,Leave-one-out,2,MCC,0.5616657965968727
+25,25,khan,63,2308,RFE_wrapper,GaussianNB(),20,Leave-one-out,2,MCC,0.28464130194170323
+26,26,khan,63,2308,relieff_wrapper,GaussianNB(),20,Leave-one-out,2,MCC,0.4838088389422941
+27,27,khan,63,2308,relaxed_lasso_wrapper,GaussianNB(),20,Leave-one-out,2,MCC,0.40908402664435045
+28,28,khan,63,2308,f_classif_wrapper,GaussianNB(),50,Leave-one-out,2,MCC,0.623883070826089
+29,29,khan,63,2308,RFE_wrapper,GaussianNB(),50,Leave-one-out,2,MCC,0.2627765441565308
+30,30,khan,63,2308,relieff_wrapper,GaussianNB(),50,Leave-one-out,2,MCC,0.5528924446420719
+31,31,khan,63,2308,relaxed_lasso_wrapper,GaussianNB(),50,Leave-one-out,2,MCC,0.44265015930701823
+32,32,khan,63,2308,f_classif_wrapper,GaussianNB(),100,Leave-one-out,2,MCC,0.6084056390293321
+33,33,khan,63,2308,RFE_wrapper,GaussianNB(),100,Leave-one-out,2,MCC,0.16555804970785068
+34,34,khan,63,2308,relieff_wrapper,GaussianNB(),100,Leave-one-out,2,MCC,0.4920120772155967
+35,35,khan,63,2308,relaxed_lasso_wrapper,GaussianNB(),100,Leave-one-out,2,MCC,0.33305310270739147
+36,36,khan,63,2308,f_classif_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",1,Leave-one-out,2,MCC,0.4612005812379137
+37,37,khan,63,2308,RFE_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",1,Leave-one-out,2,MCC,0.0
+38,38,khan,63,2308,relieff_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",1,Leave-one-out,2,MCC,-0.009986029331567647
+39,39,khan,63,2308,relaxed_lasso_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",1,Leave-one-out,2,MCC,-0.013825031590233275
+40,40,khan,63,2308,f_classif_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",2,Leave-one-out,2,MCC,0.6169885018039449
+41,41,khan,63,2308,RFE_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",2,Leave-one-out,2,MCC,0.0
+42,42,khan,63,2308,relieff_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",2,Leave-one-out,2,MCC,0.20013939172298884
+43,43,khan,63,2308,relaxed_lasso_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",2,Leave-one-out,2,MCC,0.1713264101122264
+44,44,khan,63,2308,f_classif_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",3,Leave-one-out,2,MCC,0.6077034166131934
+45,45,khan,63,2308,RFE_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",3,Leave-one-out,2,MCC,0.0
+46,46,khan,63,2308,relieff_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",3,Leave-one-out,2,MCC,0.33956550417089976
+47,47,khan,63,2308,relaxed_lasso_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",3,Leave-one-out,2,MCC,0.18260363838896665
+48,48,khan,63,2308,f_classif_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",4,Leave-one-out,2,MCC,0.6788144526288933
+49,49,khan,63,2308,RFE_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",4,Leave-one-out,2,MCC,0.08336807727202585
+50,50,khan,63,2308,relieff_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",4,Leave-one-out,2,MCC,0.5707667922113204
+51,51,khan,63,2308,relaxed_lasso_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",4,Leave-one-out,2,MCC,0.33201590152013016
+52,52,khan,63,2308,f_classif_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",5,Leave-one-out,2,MCC,0.7699008900295736
+53,53,khan,63,2308,RFE_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",5,Leave-one-out,2,MCC,0.06942496645582068
+54,54,khan,63,2308,relieff_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",5,Leave-one-out,2,MCC,0.6704450858860833
+55,55,khan,63,2308,relaxed_lasso_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",5,Leave-one-out,2,MCC,0.34396786067572044
+56,56,khan,63,2308,f_classif_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",10,Leave-one-out,2,MCC,0.9450183472082643
+57,57,khan,63,2308,RFE_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",10,Leave-one-out,2,MCC,0.554723999523269
+58,58,khan,63,2308,relieff_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",10,Leave-one-out,2,MCC,0.5773113344924654
+59,59,khan,63,2308,relaxed_lasso_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",10,Leave-one-out,2,MCC,0.40510243356855336
+60,60,khan,63,2308,f_classif_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",20,Leave-one-out,2,MCC,0.9193355100898515
+61,61,khan,63,2308,RFE_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",20,Leave-one-out,2,MCC,0.504032854321334
+62,62,khan,63,2308,relieff_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",20,Leave-one-out,2,MCC,0.6769275417421257
+63,63,khan,63,2308,relaxed_lasso_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",20,Leave-one-out,2,MCC,0.6517258600256866
+64,64,khan,63,2308,f_classif_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",50,Leave-one-out,2,MCC,0.863672053301591
+65,65,khan,63,2308,RFE_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",50,Leave-one-out,2,MCC,0.4559070632682759
+66,66,khan,63,2308,relieff_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",50,Leave-one-out,2,MCC,0.8493532457026307
+67,67,khan,63,2308,relaxed_lasso_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",50,Leave-one-out,2,MCC,0.4958901620112439
+68,68,khan,63,2308,f_classif_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",100,Leave-one-out,2,MCC,0.8922297612757992
+69,69,khan,63,2308,RFE_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",100,Leave-one-out,2,MCC,0.4880933982623653
+70,70,khan,63,2308,relieff_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",100,Leave-one-out,2,MCC,0.8714173247309707
+71,71,khan,63,2308,relaxed_lasso_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",100,Leave-one-out,2,MCC,0.5625490213283206
+72,72,khan,63,2308,f_classif_wrapper,RandomForestClassifier(),1,Leave-one-out,2,MCC,0.43774260293441936
+73,73,khan,63,2308,RFE_wrapper,RandomForestClassifier(),1,Leave-one-out,2,MCC,0.10463232239704098
+74,74,khan,63,2308,relieff_wrapper,RandomForestClassifier(),1,Leave-one-out,2,MCC,0.24280047748161177
+75,75,khan,63,2308,relaxed_lasso_wrapper,RandomForestClassifier(),1,Leave-one-out,2,MCC,-0.10998577220699315
+76,76,khan,63,2308,f_classif_wrapper,RandomForestClassifier(),2,Leave-one-out,2,MCC,0.617499103994968
+77,77,khan,63,2308,RFE_wrapper,RandomForestClassifier(),2,Leave-one-out,2,MCC,0.2039011975989412
+78,78,khan,63,2308,relieff_wrapper,RandomForestClassifier(),2,Leave-one-out,2,MCC,0.4288871986559048
+79,79,khan,63,2308,relaxed_lasso_wrapper,RandomForestClassifier(),2,Leave-one-out,2,MCC,0.27311108872022566
+80,80,khan,63,2308,f_classif_wrapper,RandomForestClassifier(),3,Leave-one-out,2,MCC,0.6914220069166932
+81,81,khan,63,2308,RFE_wrapper,RandomForestClassifier(),3,Leave-one-out,2,MCC,0.2003812190527418
+82,82,khan,63,2308,relieff_wrapper,RandomForestClassifier(),3,Leave-one-out,2,MCC,0.3884188186907751
+83,83,khan,63,2308,relaxed_lasso_wrapper,RandomForestClassifier(),3,Leave-one-out,2,MCC,0.39100384318551346
+84,84,khan,63,2308,f_classif_wrapper,RandomForestClassifier(),4,Leave-one-out,2,MCC,0.5838645901643478
+85,85,khan,63,2308,RFE_wrapper,RandomForestClassifier(),4,Leave-one-out,2,MCC,0.1566574255849168
+86,86,khan,63,2308,relieff_wrapper,RandomForestClassifier(),4,Leave-one-out,2,MCC,0.4489052102704535
+87,87,khan,63,2308,relaxed_lasso_wrapper,RandomForestClassifier(),4,Leave-one-out,2,MCC,0.345204216803208
+88,88,khan,63,2308,f_classif_wrapper,RandomForestClassifier(),5,Leave-one-out,2,MCC,0.6935501790889091
+89,89,khan,63,2308,RFE_wrapper,RandomForestClassifier(),5,Leave-one-out,2,MCC,0.18335230799251756
+90,90,khan,63,2308,relieff_wrapper,RandomForestClassifier(),5,Leave-one-out,2,MCC,0.5961734348226015
+91,91,khan,63,2308,relaxed_lasso_wrapper,RandomForestClassifier(),5,Leave-one-out,2,MCC,0.4119464100495046
+92,92,khan,63,2308,f_classif_wrapper,RandomForestClassifier(),10,Leave-one-out,2,MCC,0.7030363754645134
+93,93,khan,63,2308,RFE_wrapper,RandomForestClassifier(),10,Leave-one-out,2,MCC,0.11013354797383057
+94,94,khan,63,2308,relieff_wrapper,RandomForestClassifier(),10,Leave-one-out,2,MCC,0.5677884325782867
+95,95,khan,63,2308,relaxed_lasso_wrapper,RandomForestClassifier(),10,Leave-one-out,2,MCC,0.35146192001637844
+96,96,khan,63,2308,f_classif_wrapper,RandomForestClassifier(),20,Leave-one-out,2,MCC,0.7728650261157757
+97,97,khan,63,2308,RFE_wrapper,RandomForestClassifier(),20,Leave-one-out,2,MCC,0.28146810945448364
+98,98,khan,63,2308,relieff_wrapper,RandomForestClassifier(),20,Leave-one-out,2,MCC,0.600138460223983
+99,99,khan,63,2308,relaxed_lasso_wrapper,RandomForestClassifier(),20,Leave-one-out,2,MCC,0.42724154848325235
+100,100,khan,63,2308,f_classif_wrapper,RandomForestClassifier(),50,Leave-one-out,2,MCC,0.7409378691035828
+101,101,khan,63,2308,RFE_wrapper,RandomForestClassifier(),50,Leave-one-out,2,MCC,0.1920002646226584
+102,102,khan,63,2308,relieff_wrapper,RandomForestClassifier(),50,Leave-one-out,2,MCC,0.651380168404982
+103,103,khan,63,2308,relaxed_lasso_wrapper,RandomForestClassifier(),50,Leave-one-out,2,MCC,0.47170496006249896
+104,104,khan,63,2308,f_classif_wrapper,RandomForestClassifier(),100,Leave-one-out,2,MCC,0.7352981861817864
+105,105,khan,63,2308,RFE_wrapper,RandomForestClassifier(),100,Leave-one-out,2,MCC,0.3957350708460292
+106,106,khan,63,2308,relieff_wrapper,RandomForestClassifier(),100,Leave-one-out,2,MCC,0.7336470337126415
+107,107,khan,63,2308,relaxed_lasso_wrapper,RandomForestClassifier(),100,Leave-one-out,2,MCC,0.4224396668866246
+108,108,khan,63,2308,f_classif_wrapper,LogisticRegression(),1,Leave-one-out,2,MCC,0.44494047991482355
+109,109,khan,63,2308,RFE_wrapper,LogisticRegression(),1,Leave-one-out,2,MCC,-0.0600349395865978
+110,110,khan,63,2308,relieff_wrapper,LogisticRegression(),1,Leave-one-out,2,MCC,0.0856632050561132
+111,111,khan,63,2308,relaxed_lasso_wrapper,LogisticRegression(),1,Leave-one-out,2,MCC,0.016627028005279102
+112,112,khan,63,2308,f_classif_wrapper,LogisticRegression(),2,Leave-one-out,2,MCC,0.5362694869220219
+113,113,khan,63,2308,RFE_wrapper,LogisticRegression(),2,Leave-one-out,2,MCC,0.10954894710919294
+114,114,khan,63,2308,relieff_wrapper,LogisticRegression(),2,Leave-one-out,2,MCC,0.3171532173629095
+115,115,khan,63,2308,relaxed_lasso_wrapper,LogisticRegression(),2,Leave-one-out,2,MCC,0.1532573124917652
+116,116,khan,63,2308,f_classif_wrapper,LogisticRegression(),3,Leave-one-out,2,MCC,0.6057670038325752
+117,117,khan,63,2308,RFE_wrapper,LogisticRegression(),3,Leave-one-out,2,MCC,0.07251907863432483
+118,118,khan,63,2308,relieff_wrapper,LogisticRegression(),3,Leave-one-out,2,MCC,0.2820530603517979
+119,119,khan,63,2308,relaxed_lasso_wrapper,LogisticRegression(),3,Leave-one-out,2,MCC,0.23848059246488065
+120,120,khan,63,2308,f_classif_wrapper,LogisticRegression(),4,Leave-one-out,2,MCC,0.6626035022541253
+121,121,khan,63,2308,RFE_wrapper,LogisticRegression(),4,Leave-one-out,2,MCC,0.024890793700572234
+122,122,khan,63,2308,relieff_wrapper,LogisticRegression(),4,Leave-one-out,2,MCC,0.34472306499555494
+123,123,khan,63,2308,relaxed_lasso_wrapper,LogisticRegression(),4,Leave-one-out,2,MCC,0.21776836837661118
+124,124,khan,63,2308,f_classif_wrapper,LogisticRegression(),5,Leave-one-out,2,MCC,0.6785643038814406
+125,125,khan,63,2308,RFE_wrapper,LogisticRegression(),5,Leave-one-out,2,MCC,0.06484239189016272
+126,126,khan,63,2308,relieff_wrapper,LogisticRegression(),5,Leave-one-out,2,MCC,0.4392602727463858
+127,127,khan,63,2308,relaxed_lasso_wrapper,LogisticRegression(),5,Leave-one-out,2,MCC,0.33151799431073137
+128,128,khan,63,2308,f_classif_wrapper,LogisticRegression(),10,Leave-one-out,2,MCC,0.7453059822026173
+129,129,khan,63,2308,RFE_wrapper,LogisticRegression(),10,Leave-one-out,2,MCC,0.4286549361748203
+130,130,khan,63,2308,relieff_wrapper,LogisticRegression(),10,Leave-one-out,2,MCC,0.6480602586978759
+131,131,khan,63,2308,relaxed_lasso_wrapper,LogisticRegression(),10,Leave-one-out,2,MCC,0.37381252417489513
+132,132,khan,63,2308,f_classif_wrapper,LogisticRegression(),20,Leave-one-out,2,MCC,0.7914311817236755
+133,133,khan,63,2308,RFE_wrapper,LogisticRegression(),20,Leave-one-out,2,MCC,0.5189047974453191
+134,134,khan,63,2308,relieff_wrapper,LogisticRegression(),20,Leave-one-out,2,MCC,0.7233824442718559
+135,135,khan,63,2308,relaxed_lasso_wrapper,LogisticRegression(),20,Leave-one-out,2,MCC,0.4470760767165508
+136,136,khan,63,2308,f_classif_wrapper,LogisticRegression(),50,Leave-one-out,2,MCC,0.9193355100898515
+137,137,khan,63,2308,RFE_wrapper,LogisticRegression(),50,Leave-one-out,2,MCC,0.40023872678223676
+138,138,khan,63,2308,relieff_wrapper,LogisticRegression(),50,Leave-one-out,2,MCC,0.8711630271731402
+139,139,khan,63,2308,relaxed_lasso_wrapper,LogisticRegression(),50,Leave-one-out,2,MCC,0.5403796217279051
+140,140,khan,63,2308,f_classif_wrapper,LogisticRegression(),100,Leave-one-out,2,MCC,0.9463516852652356
+141,141,khan,63,2308,RFE_wrapper,LogisticRegression(),100,Leave-one-out,2,MCC,0.5451991240505124
+142,142,khan,63,2308,relieff_wrapper,LogisticRegression(),100,Leave-one-out,2,MCC,0.8943814781017085
+143,143,khan,63,2308,relaxed_lasso_wrapper,LogisticRegression(),100,Leave-one-out,2,MCC,0.5512493170011471
+144,144,khan,63,2308,f_classif_wrapper,KNeighborsClassifier(),1,Leave-one-out,2,MCC,0.45136121159349163
+145,145,khan,63,2308,RFE_wrapper,KNeighborsClassifier(),1,Leave-one-out,2,MCC,0.072883246938556
+146,146,khan,63,2308,relieff_wrapper,KNeighborsClassifier(),1,Leave-one-out,2,MCC,0.22465367334669917
+147,147,khan,63,2308,relaxed_lasso_wrapper,KNeighborsClassifier(),1,Leave-one-out,2,MCC,-0.036748558695226696
+148,148,khan,63,2308,f_classif_wrapper,KNeighborsClassifier(),2,Leave-one-out,2,MCC,0.6622279631932004
+149,149,khan,63,2308,RFE_wrapper,KNeighborsClassifier(),2,Leave-one-out,2,MCC,0.08610353310971293
+150,150,khan,63,2308,relieff_wrapper,KNeighborsClassifier(),2,Leave-one-out,2,MCC,0.4007792306964789
+151,151,khan,63,2308,relaxed_lasso_wrapper,KNeighborsClassifier(),2,Leave-one-out,2,MCC,0.17817762443055746
+152,152,khan,63,2308,f_classif_wrapper,KNeighborsClassifier(),3,Leave-one-out,2,MCC,0.7313790553244017
+153,153,khan,63,2308,RFE_wrapper,KNeighborsClassifier(),3,Leave-one-out,2,MCC,0.19297345809404895
+154,154,khan,63,2308,relieff_wrapper,KNeighborsClassifier(),3,Leave-one-out,2,MCC,0.44261073090811287
+155,155,khan,63,2308,relaxed_lasso_wrapper,KNeighborsClassifier(),3,Leave-one-out,2,MCC,0.23574274092989517
+156,156,khan,63,2308,f_classif_wrapper,KNeighborsClassifier(),4,Leave-one-out,2,MCC,0.712390808677952
+157,157,khan,63,2308,RFE_wrapper,KNeighborsClassifier(),4,Leave-one-out,2,MCC,0.07460286400244696
+158,158,khan,63,2308,relieff_wrapper,KNeighborsClassifier(),4,Leave-one-out,2,MCC,0.41211192090474724
+159,159,khan,63,2308,relaxed_lasso_wrapper,KNeighborsClassifier(),4,Leave-one-out,2,MCC,0.3104159883911371
+160,160,khan,63,2308,f_classif_wrapper,KNeighborsClassifier(),5,Leave-one-out,2,MCC,0.8199174940121292
+161,161,khan,63,2308,RFE_wrapper,KNeighborsClassifier(),5,Leave-one-out,2,MCC,0.1476887967969301
+162,162,khan,63,2308,relieff_wrapper,KNeighborsClassifier(),5,Leave-one-out,2,MCC,0.4695797125952714
+163,163,khan,63,2308,relaxed_lasso_wrapper,KNeighborsClassifier(),5,Leave-one-out,2,MCC,0.2996742344161462
+164,164,khan,63,2308,f_classif_wrapper,KNeighborsClassifier(),10,Leave-one-out,2,MCC,0.8676713137262115
+165,165,khan,63,2308,RFE_wrapper,KNeighborsClassifier(),10,Leave-one-out,2,MCC,0.17837189391630315
+166,166,khan,63,2308,relieff_wrapper,KNeighborsClassifier(),10,Leave-one-out,2,MCC,0.6654418210127666
+167,167,khan,63,2308,relaxed_lasso_wrapper,KNeighborsClassifier(),10,Leave-one-out,2,MCC,0.3935390669642862
+168,168,khan,63,2308,f_classif_wrapper,KNeighborsClassifier(),20,Leave-one-out,2,MCC,0.7895109933381621
+169,169,khan,63,2308,RFE_wrapper,KNeighborsClassifier(),20,Leave-one-out,2,MCC,0.2636219817576563
+170,170,khan,63,2308,relieff_wrapper,KNeighborsClassifier(),20,Leave-one-out,2,MCC,0.6865891631941476
+171,171,khan,63,2308,relaxed_lasso_wrapper,KNeighborsClassifier(),20,Leave-one-out,2,MCC,0.6125702240268123
+172,172,khan,63,2308,f_classif_wrapper,KNeighborsClassifier(),50,Leave-one-out,2,MCC,0.8444538842134707
+173,173,khan,63,2308,RFE_wrapper,KNeighborsClassifier(),50,Leave-one-out,2,MCC,0.251692347109403
+174,174,khan,63,2308,relieff_wrapper,KNeighborsClassifier(),50,Leave-one-out,2,MCC,0.6153564751715154
+175,175,khan,63,2308,relaxed_lasso_wrapper,KNeighborsClassifier(),50,Leave-one-out,2,MCC,0.4348430186911587
+176,176,khan,63,2308,f_classif_wrapper,KNeighborsClassifier(),100,Leave-one-out,2,MCC,0.8389209791508778
+177,177,khan,63,2308,RFE_wrapper,KNeighborsClassifier(),100,Leave-one-out,2,MCC,0.3343217216305777
+178,178,khan,63,2308,relieff_wrapper,KNeighborsClassifier(),100,Leave-one-out,2,MCC,0.7167845333778851
+179,179,khan,63,2308,relaxed_lasso_wrapper,KNeighborsClassifier(),100,Leave-one-out,2,MCC,0.5830096976537424

@@ -1,0 +1,181 @@
+,index,Dataset Name,Number of samples,Original Number of features,Filtering Algorithm,Learning algorithm,Number of features selected (K),CV Method,Fold,Measure Type,Measure Value
+0,0,sorlie,85,456,f_classif_wrapper,GaussianNB(),1,Leave-one-out,2,AUC,0.9042697583011985
+1,1,sorlie,85,456,RFE_wrapper,GaussianNB(),1,Leave-one-out,2,AUC,0.5120209025254664
+2,2,sorlie,85,456,relieff_wrapper,GaussianNB(),1,Leave-one-out,2,AUC,0.6471553674520206
+3,3,sorlie,85,456,relaxed_lasso_wrapper,GaussianNB(),1,Leave-one-out,2,AUC,
+4,4,sorlie,85,456,f_classif_wrapper,GaussianNB(),2,Leave-one-out,2,AUC,0.9028530377668309
+5,5,sorlie,85,456,RFE_wrapper,GaussianNB(),2,Leave-one-out,2,AUC,0.5957126882583272
+6,6,sorlie,85,456,relieff_wrapper,GaussianNB(),2,Leave-one-out,2,AUC,0.6857089918195395
+7,7,sorlie,85,456,relaxed_lasso_wrapper,GaussianNB(),2,Leave-one-out,2,AUC,
+8,8,sorlie,85,456,f_classif_wrapper,GaussianNB(),3,Leave-one-out,2,AUC,0.900680219037217
+9,9,sorlie,85,456,RFE_wrapper,GaussianNB(),3,Leave-one-out,2,AUC,0.633362310441418
+10,10,sorlie,85,456,relieff_wrapper,GaussianNB(),3,Leave-one-out,2,AUC,0.678383170244225
+11,11,sorlie,85,456,relaxed_lasso_wrapper,GaussianNB(),3,Leave-one-out,2,AUC,
+12,12,sorlie,85,456,f_classif_wrapper,GaussianNB(),4,Leave-one-out,2,AUC,0.9103904293813017
+13,13,sorlie,85,456,RFE_wrapper,GaussianNB(),4,Leave-one-out,2,AUC,0.7682527918329136
+14,14,sorlie,85,456,relieff_wrapper,GaussianNB(),4,Leave-one-out,2,AUC,0.7249714872686475
+15,15,sorlie,85,456,relaxed_lasso_wrapper,GaussianNB(),4,Leave-one-out,2,AUC,
+16,16,sorlie,85,456,f_classif_wrapper,GaussianNB(),5,Leave-one-out,2,AUC,0.9090194963927216
+17,17,sorlie,85,456,RFE_wrapper,GaussianNB(),5,Leave-one-out,2,AUC,0.775063991113687
+18,18,sorlie,85,456,relieff_wrapper,GaussianNB(),5,Leave-one-out,2,AUC,0.7321258609544614
+19,19,sorlie,85,456,relaxed_lasso_wrapper,GaussianNB(),5,Leave-one-out,2,AUC,
+20,20,sorlie,85,456,f_classif_wrapper,GaussianNB(),10,Leave-one-out,2,AUC,0.8838901210351515
+21,21,sorlie,85,456,RFE_wrapper,GaussianNB(),10,Leave-one-out,2,AUC,0.7788135545995586
+22,22,sorlie,85,456,relieff_wrapper,GaussianNB(),10,Leave-one-out,2,AUC,0.7820755225166991
+23,23,sorlie,85,456,relaxed_lasso_wrapper,GaussianNB(),10,Leave-one-out,2,AUC,
+24,24,sorlie,85,456,f_classif_wrapper,GaussianNB(),20,Leave-one-out,2,AUC,0.896546058741799
+25,25,sorlie,85,456,RFE_wrapper,GaussianNB(),20,Leave-one-out,2,AUC,0.8091876936450972
+26,26,sorlie,85,456,relieff_wrapper,GaussianNB(),20,Leave-one-out,2,AUC,0.798888003477253
+27,27,sorlie,85,456,relaxed_lasso_wrapper,GaussianNB(),20,Leave-one-out,2,AUC,
+28,28,sorlie,85,456,f_classif_wrapper,GaussianNB(),50,Leave-one-out,2,AUC,0.9043187036087645
+29,29,sorlie,85,456,RFE_wrapper,GaussianNB(),50,Leave-one-out,2,AUC,0.7930476301926607
+30,30,sorlie,85,456,relieff_wrapper,GaussianNB(),50,Leave-one-out,2,AUC,0.8519210336654556
+31,31,sorlie,85,456,relaxed_lasso_wrapper,GaussianNB(),50,Leave-one-out,2,AUC,
+32,32,sorlie,85,456,f_classif_wrapper,GaussianNB(),100,Leave-one-out,2,AUC,0.9039031793088589
+33,33,sorlie,85,456,RFE_wrapper,GaussianNB(),100,Leave-one-out,2,AUC,0.7803456727518594
+34,34,sorlie,85,456,relieff_wrapper,GaussianNB(),100,Leave-one-out,2,AUC,0.8676873667238779
+35,35,sorlie,85,456,relaxed_lasso_wrapper,GaussianNB(),100,Leave-one-out,2,AUC,
+36,36,sorlie,85,456,f_classif_wrapper,SVC(),1,Leave-one-out,2,AUC,0.8248329172517814
+37,37,sorlie,85,456,RFE_wrapper,SVC(),1,Leave-one-out,2,AUC,0.5978999491043102
+38,38,sorlie,85,456,relieff_wrapper,SVC(),1,Leave-one-out,2,AUC,0.672815153913024
+39,39,sorlie,85,456,relaxed_lasso_wrapper,SVC(),1,Leave-one-out,2,AUC,
+40,40,sorlie,85,456,f_classif_wrapper,SVC(),2,Leave-one-out,2,AUC,0.8714309861875785
+41,41,sorlie,85,456,RFE_wrapper,SVC(),2,Leave-one-out,2,AUC,0.5411219527598838
+42,42,sorlie,85,456,relieff_wrapper,SVC(),2,Leave-one-out,2,AUC,0.6982464205841488
+43,43,sorlie,85,456,relaxed_lasso_wrapper,SVC(),2,Leave-one-out,2,AUC,
+44,44,sorlie,85,456,f_classif_wrapper,SVC(),3,Leave-one-out,2,AUC,0.9075923738195544
+45,45,sorlie,85,456,RFE_wrapper,SVC(),3,Leave-one-out,2,AUC,0.532708746628625
+46,46,sorlie,85,456,relieff_wrapper,SVC(),3,Leave-one-out,2,AUC,0.7118883229684447
+47,47,sorlie,85,456,relaxed_lasso_wrapper,SVC(),3,Leave-one-out,2,AUC,
+48,48,sorlie,85,456,f_classif_wrapper,SVC(),4,Leave-one-out,2,AUC,0.9186142626811998
+49,49,sorlie,85,456,RFE_wrapper,SVC(),4,Leave-one-out,2,AUC,0.623507121681564
+50,50,sorlie,85,456,relieff_wrapper,SVC(),4,Leave-one-out,2,AUC,0.7274138302535869
+51,51,sorlie,85,456,relaxed_lasso_wrapper,SVC(),4,Leave-one-out,2,AUC,
+52,52,sorlie,85,456,f_classif_wrapper,SVC(),5,Leave-one-out,2,AUC,0.9117720430347205
+53,53,sorlie,85,456,RFE_wrapper,SVC(),5,Leave-one-out,2,AUC,0.6141512307840908
+54,54,sorlie,85,456,relieff_wrapper,SVC(),5,Leave-one-out,2,AUC,0.7798975956430318
+55,55,sorlie,85,456,relaxed_lasso_wrapper,SVC(),5,Leave-one-out,2,AUC,
+56,56,sorlie,85,456,f_classif_wrapper,SVC(),10,Leave-one-out,2,AUC,0.938178454405635
+57,57,sorlie,85,456,RFE_wrapper,SVC(),10,Leave-one-out,2,AUC,0.7254568538290649
+58,58,sorlie,85,456,relieff_wrapper,SVC(),10,Leave-one-out,2,AUC,0.7588662520711202
+59,59,sorlie,85,456,relaxed_lasso_wrapper,SVC(),10,Leave-one-out,2,AUC,
+60,60,sorlie,85,456,f_classif_wrapper,SVC(),20,Leave-one-out,2,AUC,0.9513413057530704
+61,61,sorlie,85,456,RFE_wrapper,SVC(),20,Leave-one-out,2,AUC,0.793311024675122
+62,62,sorlie,85,456,relieff_wrapper,SVC(),20,Leave-one-out,2,AUC,0.8592251224097065
+63,63,sorlie,85,456,relaxed_lasso_wrapper,SVC(),20,Leave-one-out,2,AUC,
+64,64,sorlie,85,456,f_classif_wrapper,SVC(),50,Leave-one-out,2,AUC,0.960991425748018
+65,65,sorlie,85,456,RFE_wrapper,SVC(),50,Leave-one-out,2,AUC,0.8774734562259917
+66,66,sorlie,85,456,relieff_wrapper,SVC(),50,Leave-one-out,2,AUC,0.9203712784848688
+67,67,sorlie,85,456,relaxed_lasso_wrapper,SVC(),50,Leave-one-out,2,AUC,
+68,68,sorlie,85,456,f_classif_wrapper,SVC(),100,Leave-one-out,2,AUC,0.9613261484965339
+69,69,sorlie,85,456,RFE_wrapper,SVC(),100,Leave-one-out,2,AUC,0.9246552467140702
+70,70,sorlie,85,456,relieff_wrapper,SVC(),100,Leave-one-out,2,AUC,0.9706986640810171
+71,71,sorlie,85,456,relaxed_lasso_wrapper,SVC(),100,Leave-one-out,2,AUC,
+72,72,sorlie,85,456,f_classif_wrapper,RandomForestClassifier(),1,Leave-one-out,2,AUC,0.8829402384295894
+73,73,sorlie,85,456,RFE_wrapper,RandomForestClassifier(),1,Leave-one-out,2,AUC,0.5484304995207632
+74,74,sorlie,85,456,relieff_wrapper,RandomForestClassifier(),1,Leave-one-out,2,AUC,0.6461993550735944
+75,75,sorlie,85,456,relaxed_lasso_wrapper,RandomForestClassifier(),1,Leave-one-out,2,AUC,
+76,76,sorlie,85,456,f_classif_wrapper,RandomForestClassifier(),2,Leave-one-out,2,AUC,0.8665391488160251
+77,77,sorlie,85,456,RFE_wrapper,RandomForestClassifier(),2,Leave-one-out,2,AUC,0.6145998187073238
+78,78,sorlie,85,456,relieff_wrapper,RandomForestClassifier(),2,Leave-one-out,2,AUC,0.6916490203508459
+79,79,sorlie,85,456,relaxed_lasso_wrapper,RandomForestClassifier(),2,Leave-one-out,2,AUC,
+80,80,sorlie,85,456,f_classif_wrapper,RandomForestClassifier(),3,Leave-one-out,2,AUC,0.8858541559860018
+81,81,sorlie,85,456,RFE_wrapper,RandomForestClassifier(),3,Leave-one-out,2,AUC,0.6575322834704174
+82,82,sorlie,85,456,relieff_wrapper,RandomForestClassifier(),3,Leave-one-out,2,AUC,0.7208444783749044
+83,83,sorlie,85,456,relaxed_lasso_wrapper,RandomForestClassifier(),3,Leave-one-out,2,AUC,
+84,84,sorlie,85,456,f_classif_wrapper,RandomForestClassifier(),4,Leave-one-out,2,AUC,0.9002972939839066
+85,85,sorlie,85,456,RFE_wrapper,RandomForestClassifier(),4,Leave-one-out,2,AUC,0.7167413384451924
+86,86,sorlie,85,456,relieff_wrapper,RandomForestClassifier(),4,Leave-one-out,2,AUC,0.7569342591147865
+87,87,sorlie,85,456,relaxed_lasso_wrapper,RandomForestClassifier(),4,Leave-one-out,2,AUC,
+88,88,sorlie,85,456,f_classif_wrapper,RandomForestClassifier(),5,Leave-one-out,2,AUC,0.9008889099406341
+89,89,sorlie,85,456,RFE_wrapper,RandomForestClassifier(),5,Leave-one-out,2,AUC,0.7598939177793133
+90,90,sorlie,85,456,relieff_wrapper,RandomForestClassifier(),5,Leave-one-out,2,AUC,0.7598360564384905
+91,91,sorlie,85,456,relaxed_lasso_wrapper,RandomForestClassifier(),5,Leave-one-out,2,AUC,
+92,92,sorlie,85,456,f_classif_wrapper,RandomForestClassifier(),10,Leave-one-out,2,AUC,0.9397770248683028
+93,93,sorlie,85,456,RFE_wrapper,RandomForestClassifier(),10,Leave-one-out,2,AUC,0.7522331877047903
+94,94,sorlie,85,456,relieff_wrapper,RandomForestClassifier(),10,Leave-one-out,2,AUC,0.7885776326445697
+95,95,sorlie,85,456,relaxed_lasso_wrapper,RandomForestClassifier(),10,Leave-one-out,2,AUC,
+96,96,sorlie,85,456,f_classif_wrapper,RandomForestClassifier(),20,Leave-one-out,2,AUC,0.9512248400686534
+97,97,sorlie,85,456,RFE_wrapper,RandomForestClassifier(),20,Leave-one-out,2,AUC,0.8972117892249738
+98,98,sorlie,85,456,relieff_wrapper,RandomForestClassifier(),20,Leave-one-out,2,AUC,0.8021699395938747
+99,99,sorlie,85,456,relaxed_lasso_wrapper,RandomForestClassifier(),20,Leave-one-out,2,AUC,
+100,100,sorlie,85,456,f_classif_wrapper,RandomForestClassifier(),50,Leave-one-out,2,AUC,0.9565572780836472
+101,101,sorlie,85,456,RFE_wrapper,RandomForestClassifier(),50,Leave-one-out,2,AUC,0.8762684914814731
+102,102,sorlie,85,456,relieff_wrapper,RandomForestClassifier(),50,Leave-one-out,2,AUC,0.9025064269739727
+103,103,sorlie,85,456,relaxed_lasso_wrapper,RandomForestClassifier(),50,Leave-one-out,2,AUC,
+104,104,sorlie,85,456,f_classif_wrapper,RandomForestClassifier(),100,Leave-one-out,2,AUC,0.957880937520897
+105,105,sorlie,85,456,RFE_wrapper,RandomForestClassifier(),100,Leave-one-out,2,AUC,0.9331290075711983
+106,106,sorlie,85,456,relieff_wrapper,RandomForestClassifier(),100,Leave-one-out,2,AUC,0.9562850604432753
+107,107,sorlie,85,456,relaxed_lasso_wrapper,RandomForestClassifier(),100,Leave-one-out,2,AUC,
+108,108,sorlie,85,456,f_classif_wrapper,"LogisticRegression(C=0.1, random_state=0)",1,Leave-one-out,2,AUC,0.8427792204414922
+109,109,sorlie,85,456,RFE_wrapper,"LogisticRegression(C=0.1, random_state=0)",1,Leave-one-out,2,AUC,0.5748784726092029
+110,110,sorlie,85,456,relieff_wrapper,"LogisticRegression(C=0.1, random_state=0)",1,Leave-one-out,2,AUC,0.670708926806797
+111,111,sorlie,85,456,relaxed_lasso_wrapper,"LogisticRegression(C=0.1, random_state=0)",1,Leave-one-out,2,AUC,
+112,112,sorlie,85,456,f_classif_wrapper,"LogisticRegression(C=0.1, random_state=0)",2,Leave-one-out,2,AUC,0.8615139424470053
+113,113,sorlie,85,456,RFE_wrapper,"LogisticRegression(C=0.1, random_state=0)",2,Leave-one-out,2,AUC,0.642549725460476
+114,114,sorlie,85,456,relieff_wrapper,"LogisticRegression(C=0.1, random_state=0)",2,Leave-one-out,2,AUC,0.7358133837089214
+115,115,sorlie,85,456,relaxed_lasso_wrapper,"LogisticRegression(C=0.1, random_state=0)",2,Leave-one-out,2,AUC,
+116,116,sorlie,85,456,f_classif_wrapper,"LogisticRegression(C=0.1, random_state=0)",3,Leave-one-out,2,AUC,0.9180278477438721
+117,117,sorlie,85,456,RFE_wrapper,"LogisticRegression(C=0.1, random_state=0)",3,Leave-one-out,2,AUC,0.6484500962188589
+118,118,sorlie,85,456,relieff_wrapper,"LogisticRegression(C=0.1, random_state=0)",3,Leave-one-out,2,AUC,0.7548168869669883
+119,119,sorlie,85,456,relaxed_lasso_wrapper,"LogisticRegression(C=0.1, random_state=0)",3,Leave-one-out,2,AUC,
+120,120,sorlie,85,456,f_classif_wrapper,"LogisticRegression(C=0.1, random_state=0)",4,Leave-one-out,2,AUC,0.9217922712851719
+121,121,sorlie,85,456,RFE_wrapper,"LogisticRegression(C=0.1, random_state=0)",4,Leave-one-out,2,AUC,0.7322376828715571
+122,122,sorlie,85,456,relieff_wrapper,"LogisticRegression(C=0.1, random_state=0)",4,Leave-one-out,2,AUC,0.7923530154767477
+123,123,sorlie,85,456,relaxed_lasso_wrapper,"LogisticRegression(C=0.1, random_state=0)",4,Leave-one-out,2,AUC,
+124,124,sorlie,85,456,f_classif_wrapper,"LogisticRegression(C=0.1, random_state=0)",5,Leave-one-out,2,AUC,0.923034943420339
+125,125,sorlie,85,456,RFE_wrapper,"LogisticRegression(C=0.1, random_state=0)",5,Leave-one-out,2,AUC,0.7410838738678496
+126,126,sorlie,85,456,relieff_wrapper,"LogisticRegression(C=0.1, random_state=0)",5,Leave-one-out,2,AUC,0.8087673398271775
+127,127,sorlie,85,456,relaxed_lasso_wrapper,"LogisticRegression(C=0.1, random_state=0)",5,Leave-one-out,2,AUC,
+128,128,sorlie,85,456,f_classif_wrapper,"LogisticRegression(C=0.1, random_state=0)",10,Leave-one-out,2,AUC,0.9446633825944171
+129,129,sorlie,85,456,RFE_wrapper,"LogisticRegression(C=0.1, random_state=0)",10,Leave-one-out,2,AUC,0.7520776214995282
+130,130,sorlie,85,456,relieff_wrapper,"LogisticRegression(C=0.1, random_state=0)",10,Leave-one-out,2,AUC,0.7963831553841696
+131,131,sorlie,85,456,relaxed_lasso_wrapper,"LogisticRegression(C=0.1, random_state=0)",10,Leave-one-out,2,AUC,
+132,132,sorlie,85,456,f_classif_wrapper,"LogisticRegression(C=0.1, random_state=0)",20,Leave-one-out,2,AUC,0.9637578108166343
+133,133,sorlie,85,456,RFE_wrapper,"LogisticRegression(C=0.1, random_state=0)",20,Leave-one-out,2,AUC,0.8548676897814829
+134,134,sorlie,85,456,relieff_wrapper,"LogisticRegression(C=0.1, random_state=0)",20,Leave-one-out,2,AUC,0.8671729301800296
+135,135,sorlie,85,456,relaxed_lasso_wrapper,"LogisticRegression(C=0.1, random_state=0)",20,Leave-one-out,2,AUC,
+136,136,sorlie,85,456,f_classif_wrapper,"LogisticRegression(C=0.1, random_state=0)",50,Leave-one-out,2,AUC,0.9724243808929407
+137,137,sorlie,85,456,RFE_wrapper,"LogisticRegression(C=0.1, random_state=0)",50,Leave-one-out,2,AUC,0.9047447228228161
+138,138,sorlie,85,456,relieff_wrapper,"LogisticRegression(C=0.1, random_state=0)",50,Leave-one-out,2,AUC,0.9338570574118241
+139,139,sorlie,85,456,relaxed_lasso_wrapper,"LogisticRegression(C=0.1, random_state=0)",50,Leave-one-out,2,AUC,
+140,140,sorlie,85,456,f_classif_wrapper,"LogisticRegression(C=0.1, random_state=0)",100,Leave-one-out,2,AUC,0.9771593518043822
+141,141,sorlie,85,456,RFE_wrapper,"LogisticRegression(C=0.1, random_state=0)",100,Leave-one-out,2,AUC,0.9476567550096963
+142,142,sorlie,85,456,relieff_wrapper,"LogisticRegression(C=0.1, random_state=0)",100,Leave-one-out,2,AUC,0.9792124542124543
+143,143,sorlie,85,456,relaxed_lasso_wrapper,"LogisticRegression(C=0.1, random_state=0)",100,Leave-one-out,2,AUC,
+144,144,sorlie,85,456,f_classif_wrapper,KNeighborsClassifier(),1,Leave-one-out,2,AUC,0.800539280699017
+145,145,sorlie,85,456,RFE_wrapper,KNeighborsClassifier(),1,Leave-one-out,2,AUC,0.5384558730654065
+146,146,sorlie,85,456,relieff_wrapper,KNeighborsClassifier(),1,Leave-one-out,2,AUC,0.624617400010402
+147,147,sorlie,85,456,relaxed_lasso_wrapper,KNeighborsClassifier(),1,Leave-one-out,2,AUC,
+148,148,sorlie,85,456,f_classif_wrapper,KNeighborsClassifier(),2,Leave-one-out,2,AUC,0.8230969841517508
+149,149,sorlie,85,456,RFE_wrapper,KNeighborsClassifier(),2,Leave-one-out,2,AUC,0.5204739057426684
+150,150,sorlie,85,456,relieff_wrapper,KNeighborsClassifier(),2,Leave-one-out,2,AUC,0.6759222057523275
+151,151,sorlie,85,456,relaxed_lasso_wrapper,KNeighborsClassifier(),2,Leave-one-out,2,AUC,
+152,152,sorlie,85,456,f_classif_wrapper,KNeighborsClassifier(),3,Leave-one-out,2,AUC,0.8849479247932595
+153,153,sorlie,85,456,RFE_wrapper,KNeighborsClassifier(),3,Leave-one-out,2,AUC,0.6076040296755307
+154,154,sorlie,85,456,relieff_wrapper,KNeighborsClassifier(),3,Leave-one-out,2,AUC,0.6423410345570589
+155,155,sorlie,85,456,relaxed_lasso_wrapper,KNeighborsClassifier(),3,Leave-one-out,2,AUC,
+156,156,sorlie,85,456,f_classif_wrapper,KNeighborsClassifier(),4,Leave-one-out,2,AUC,0.8810509216949378
+157,157,sorlie,85,456,RFE_wrapper,KNeighborsClassifier(),4,Leave-one-out,2,AUC,0.6296075459361463
+158,158,sorlie,85,456,relieff_wrapper,KNeighborsClassifier(),4,Leave-one-out,2,AUC,0.6933106996114096
+159,159,sorlie,85,456,relaxed_lasso_wrapper,KNeighborsClassifier(),4,Leave-one-out,2,AUC,
+160,160,sorlie,85,456,f_classif_wrapper,KNeighborsClassifier(),5,Leave-one-out,2,AUC,0.8677687255273463
+161,161,sorlie,85,456,RFE_wrapper,KNeighborsClassifier(),5,Leave-one-out,2,AUC,0.6636533260519062
+162,162,sorlie,85,456,relieff_wrapper,KNeighborsClassifier(),5,Leave-one-out,2,AUC,0.6635125270267259
+163,163,sorlie,85,456,relaxed_lasso_wrapper,KNeighborsClassifier(),5,Leave-one-out,2,AUC,
+164,164,sorlie,85,456,f_classif_wrapper,KNeighborsClassifier(),10,Leave-one-out,2,AUC,0.913771091991173
+165,165,sorlie,85,456,RFE_wrapper,KNeighborsClassifier(),10,Leave-one-out,2,AUC,0.6636285283344108
+166,166,sorlie,85,456,relieff_wrapper,KNeighborsClassifier(),10,Leave-one-out,2,AUC,0.6875257264709598
+167,167,sorlie,85,456,relaxed_lasso_wrapper,KNeighborsClassifier(),10,Leave-one-out,2,AUC,
+168,168,sorlie,85,456,f_classif_wrapper,KNeighborsClassifier(),20,Leave-one-out,2,AUC,0.9365355824027224
+169,169,sorlie,85,456,RFE_wrapper,KNeighborsClassifier(),20,Leave-one-out,2,AUC,0.8465478698110545
+170,170,sorlie,85,456,relieff_wrapper,KNeighborsClassifier(),20,Leave-one-out,2,AUC,0.7584096768680948
+171,171,sorlie,85,456,relaxed_lasso_wrapper,KNeighborsClassifier(),20,Leave-one-out,2,AUC,
+172,172,sorlie,85,456,f_classif_wrapper,KNeighborsClassifier(),50,Leave-one-out,2,AUC,0.9305162847632422
+173,173,sorlie,85,456,RFE_wrapper,KNeighborsClassifier(),50,Leave-one-out,2,AUC,0.8172045077978141
+174,174,sorlie,85,456,relieff_wrapper,KNeighborsClassifier(),50,Leave-one-out,2,AUC,0.8474812670426262
+175,175,sorlie,85,456,relaxed_lasso_wrapper,KNeighborsClassifier(),50,Leave-one-out,2,AUC,
+176,176,sorlie,85,456,f_classif_wrapper,KNeighborsClassifier(),100,Leave-one-out,2,AUC,0.948868778280543
+177,177,sorlie,85,456,RFE_wrapper,KNeighborsClassifier(),100,Leave-one-out,2,AUC,0.8593590022215783
+178,178,sorlie,85,456,relieff_wrapper,KNeighborsClassifier(),100,Leave-one-out,2,AUC,0.9145372671615066
+179,179,sorlie,85,456,relaxed_lasso_wrapper,KNeighborsClassifier(),100,Leave-one-out,2,AUC,

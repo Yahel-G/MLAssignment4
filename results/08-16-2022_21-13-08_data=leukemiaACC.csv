@@ -1,0 +1,181 @@
+,index,Dataset Name,Number of samples,Original Number of features,Filtering Algorithm,Learning algorithm,Number of features selected (K),CV Method,Fold,Measure Type,Measure Value
+0,0,leukemia,72,7070,f_classif_wrapper,GaussianNB(),1,Leave-one-out,2,ACC,0.5794334975369457
+1,1,leukemia,72,7070,RFE_wrapper,GaussianNB(),1,Leave-one-out,2,ACC,0.6139162561576355
+2,2,leukemia,72,7070,relieff_wrapper,GaussianNB(),1,Leave-one-out,2,ACC,0.5794334975369457
+3,3,leukemia,72,7070,relaxed_lasso_wrapper,GaussianNB(),1,Leave-one-out,2,ACC,
+4,4,leukemia,72,7070,f_classif_wrapper,GaussianNB(),2,Leave-one-out,2,ACC,0.7536945812807883
+5,5,leukemia,72,7070,RFE_wrapper,GaussianNB(),2,Leave-one-out,2,ACC,0.6139162561576355
+6,6,leukemia,72,7070,relieff_wrapper,GaussianNB(),2,Leave-one-out,2,ACC,0.7536945812807883
+7,7,leukemia,72,7070,relaxed_lasso_wrapper,GaussianNB(),2,Leave-one-out,2,ACC,
+8,8,leukemia,72,7070,f_classif_wrapper,GaussianNB(),3,Leave-one-out,2,ACC,0.8226600985221675
+9,9,leukemia,72,7070,RFE_wrapper,GaussianNB(),3,Leave-one-out,2,ACC,0.6120689655172413
+10,10,leukemia,72,7070,relieff_wrapper,GaussianNB(),3,Leave-one-out,2,ACC,0.8583743842364532
+11,11,leukemia,72,7070,relaxed_lasso_wrapper,GaussianNB(),3,Leave-one-out,2,ACC,
+12,12,leukemia,72,7070,f_classif_wrapper,GaussianNB(),4,Leave-one-out,2,ACC,0.9119458128078818
+13,13,leukemia,72,7070,RFE_wrapper,GaussianNB(),4,Leave-one-out,2,ACC,0.6299261083743842
+14,14,leukemia,72,7070,relieff_wrapper,GaussianNB(),4,Leave-one-out,2,ACC,0.9470443349753694
+15,15,leukemia,72,7070,relaxed_lasso_wrapper,GaussianNB(),4,Leave-one-out,2,ACC,
+16,16,leukemia,72,7070,f_classif_wrapper,GaussianNB(),5,Leave-one-out,2,ACC,0.8762315270935961
+17,17,leukemia,72,7070,RFE_wrapper,GaussianNB(),5,Leave-one-out,2,ACC,0.6305418719211823
+18,18,leukemia,72,7070,relieff_wrapper,GaussianNB(),5,Leave-one-out,2,ACC,0.9119458128078818
+19,19,leukemia,72,7070,relaxed_lasso_wrapper,GaussianNB(),5,Leave-one-out,2,ACC,
+20,20,leukemia,72,7070,f_classif_wrapper,GaussianNB(),10,Leave-one-out,2,ACC,0.9298029556650247
+21,21,leukemia,72,7070,RFE_wrapper,GaussianNB(),10,Leave-one-out,2,ACC,0.6834975369458128
+22,22,leukemia,72,7070,relieff_wrapper,GaussianNB(),10,Leave-one-out,2,ACC,0.9119458128078818
+23,23,leukemia,72,7070,relaxed_lasso_wrapper,GaussianNB(),10,Leave-one-out,2,ACC,
+24,24,leukemia,72,7070,f_classif_wrapper,GaussianNB(),20,Leave-one-out,2,ACC,0.8947044334975369
+25,25,leukemia,72,7070,RFE_wrapper,GaussianNB(),20,Leave-one-out,2,ACC,0.6477832512315271
+26,26,leukemia,72,7070,relieff_wrapper,GaussianNB(),20,Leave-one-out,2,ACC,0.8768472906403941
+27,27,leukemia,72,7070,relaxed_lasso_wrapper,GaussianNB(),20,Leave-one-out,2,ACC,
+28,28,leukemia,72,7070,f_classif_wrapper,GaussianNB(),50,Leave-one-out,2,ACC,0.8768472906403941
+29,29,leukemia,72,7070,RFE_wrapper,GaussianNB(),50,Leave-one-out,2,ACC,0.5769704433497538
+30,30,leukemia,72,7070,relieff_wrapper,GaussianNB(),50,Leave-one-out,2,ACC,0.8768472906403941
+31,31,leukemia,72,7070,relaxed_lasso_wrapper,GaussianNB(),50,Leave-one-out,2,ACC,
+32,32,leukemia,72,7070,f_classif_wrapper,GaussianNB(),100,Leave-one-out,2,ACC,0.8768472906403941
+33,33,leukemia,72,7070,RFE_wrapper,GaussianNB(),100,Leave-one-out,2,ACC,0.6305418719211823
+34,34,leukemia,72,7070,relieff_wrapper,GaussianNB(),100,Leave-one-out,2,ACC,0.8589901477832512
+35,35,leukemia,72,7070,relaxed_lasso_wrapper,GaussianNB(),100,Leave-one-out,2,ACC,
+36,36,leukemia,72,7070,f_classif_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",1,Leave-one-out,2,ACC,0.5794334975369457
+37,37,leukemia,72,7070,RFE_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",1,Leave-one-out,2,ACC,0.6496305418719213
+38,38,leukemia,72,7070,relieff_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",1,Leave-one-out,2,ACC,0.5794334975369457
+39,39,leukemia,72,7070,relaxed_lasso_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",1,Leave-one-out,2,ACC,
+40,40,leukemia,72,7070,f_classif_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",2,Leave-one-out,2,ACC,0.8608374384236454
+41,41,leukemia,72,7070,RFE_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",2,Leave-one-out,2,ACC,0.6496305418719213
+42,42,leukemia,72,7070,relieff_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",2,Leave-one-out,2,ACC,0.8608374384236454
+43,43,leukemia,72,7070,relaxed_lasso_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",2,Leave-one-out,2,ACC,
+44,44,leukemia,72,7070,f_classif_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",3,Leave-one-out,2,ACC,0.7875615763546798
+45,45,leukemia,72,7070,RFE_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",3,Leave-one-out,2,ACC,0.6496305418719213
+46,46,leukemia,72,7070,relieff_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",3,Leave-one-out,2,ACC,0.8589901477832512
+47,47,leukemia,72,7070,relaxed_lasso_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",3,Leave-one-out,2,ACC,
+48,48,leukemia,72,7070,f_classif_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",4,Leave-one-out,2,ACC,0.8411330049261083
+49,49,leukemia,72,7070,RFE_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",4,Leave-one-out,2,ACC,0.6496305418719213
+50,50,leukemia,72,7070,relieff_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",4,Leave-one-out,2,ACC,0.8762315270935961
+51,51,leukemia,72,7070,relaxed_lasso_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",4,Leave-one-out,2,ACC,
+52,52,leukemia,72,7070,f_classif_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",5,Leave-one-out,2,ACC,0.8589901477832512
+53,53,leukemia,72,7070,RFE_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",5,Leave-one-out,2,ACC,0.6496305418719213
+54,54,leukemia,72,7070,relieff_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",5,Leave-one-out,2,ACC,0.9119458128078818
+55,55,leukemia,72,7070,relaxed_lasso_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",5,Leave-one-out,2,ACC,
+56,56,leukemia,72,7070,f_classif_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",10,Leave-one-out,2,ACC,0.9291871921182266
+57,57,leukemia,72,7070,RFE_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",10,Leave-one-out,2,ACC,0.6317733990147784
+58,58,leukemia,72,7070,relieff_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",10,Leave-one-out,2,ACC,0.9298029556650247
+59,59,leukemia,72,7070,relaxed_lasso_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",10,Leave-one-out,2,ACC,
+60,60,leukemia,72,7070,f_classif_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",20,Leave-one-out,2,ACC,0.9119458128078818
+61,61,leukemia,72,7070,RFE_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",20,Leave-one-out,2,ACC,0.5603448275862069
+62,62,leukemia,72,7070,relieff_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",20,Leave-one-out,2,ACC,0.9298029556650247
+63,63,leukemia,72,7070,relaxed_lasso_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",20,Leave-one-out,2,ACC,
+64,64,leukemia,72,7070,f_classif_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",50,Leave-one-out,2,ACC,0.9470443349753694
+65,65,leukemia,72,7070,RFE_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",50,Leave-one-out,2,ACC,0.666871921182266
+66,66,leukemia,72,7070,relieff_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",50,Leave-one-out,2,ACC,0.9470443349753694
+67,67,leukemia,72,7070,relaxed_lasso_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",50,Leave-one-out,2,ACC,
+68,68,leukemia,72,7070,f_classif_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",100,Leave-one-out,2,ACC,0.9291871921182266
+69,69,leukemia,72,7070,RFE_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",100,Leave-one-out,2,ACC,0.6834975369458128
+70,70,leukemia,72,7070,relieff_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",100,Leave-one-out,2,ACC,0.9476600985221675
+71,71,leukemia,72,7070,relaxed_lasso_wrapper,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",100,Leave-one-out,2,ACC,
+72,72,leukemia,72,7070,f_classif_wrapper,RandomForestClassifier(),1,Leave-one-out,2,ACC,0.7733990147783252
+73,73,leukemia,72,7070,RFE_wrapper,RandomForestClassifier(),1,Leave-one-out,2,ACC,0.6139162561576355
+74,74,leukemia,72,7070,relieff_wrapper,RandomForestClassifier(),1,Leave-one-out,2,ACC,0.7733990147783252
+75,75,leukemia,72,7070,relaxed_lasso_wrapper,RandomForestClassifier(),1,Leave-one-out,2,ACC,
+76,76,leukemia,72,7070,f_classif_wrapper,RandomForestClassifier(),2,Leave-one-out,2,ACC,0.8263546798029557
+77,77,leukemia,72,7070,RFE_wrapper,RandomForestClassifier(),2,Leave-one-out,2,ACC,0.6139162561576355
+78,78,leukemia,72,7070,relieff_wrapper,RandomForestClassifier(),2,Leave-one-out,2,ACC,0.8263546798029557
+79,79,leukemia,72,7070,relaxed_lasso_wrapper,RandomForestClassifier(),2,Leave-one-out,2,ACC,
+80,80,leukemia,72,7070,f_classif_wrapper,RandomForestClassifier(),3,Leave-one-out,2,ACC,0.8768472906403941
+81,81,leukemia,72,7070,RFE_wrapper,RandomForestClassifier(),3,Leave-one-out,2,ACC,0.5424876847290641
+82,82,leukemia,72,7070,relieff_wrapper,RandomForestClassifier(),3,Leave-one-out,2,ACC,0.8232758620689655
+83,83,leukemia,72,7070,relaxed_lasso_wrapper,RandomForestClassifier(),3,Leave-one-out,2,ACC,
+84,84,leukemia,72,7070,f_classif_wrapper,RandomForestClassifier(),4,Leave-one-out,2,ACC,0.8940886699507389
+85,85,leukemia,72,7070,RFE_wrapper,RandomForestClassifier(),4,Leave-one-out,2,ACC,0.5424876847290641
+86,86,leukemia,72,7070,relieff_wrapper,RandomForestClassifier(),4,Leave-one-out,2,ACC,0.9298029556650247
+87,87,leukemia,72,7070,relaxed_lasso_wrapper,RandomForestClassifier(),4,Leave-one-out,2,ACC,
+88,88,leukemia,72,7070,f_classif_wrapper,RandomForestClassifier(),5,Leave-one-out,2,ACC,0.9298029556650247
+89,89,leukemia,72,7070,RFE_wrapper,RandomForestClassifier(),5,Leave-one-out,2,ACC,0.6305418719211823
+90,90,leukemia,72,7070,relieff_wrapper,RandomForestClassifier(),5,Leave-one-out,2,ACC,0.8589901477832512
+91,91,leukemia,72,7070,relaxed_lasso_wrapper,RandomForestClassifier(),5,Leave-one-out,2,ACC,
+92,92,leukemia,72,7070,f_classif_wrapper,RandomForestClassifier(),10,Leave-one-out,2,ACC,0.9113300492610837
+93,93,leukemia,72,7070,RFE_wrapper,RandomForestClassifier(),10,Leave-one-out,2,ACC,0.5782019704433498
+94,94,leukemia,72,7070,relieff_wrapper,RandomForestClassifier(),10,Leave-one-out,2,ACC,0.9125615763546798
+95,95,leukemia,72,7070,relaxed_lasso_wrapper,RandomForestClassifier(),10,Leave-one-out,2,ACC,
+96,96,leukemia,72,7070,f_classif_wrapper,RandomForestClassifier(),20,Leave-one-out,2,ACC,0.9125615763546798
+97,97,leukemia,72,7070,RFE_wrapper,RandomForestClassifier(),20,Leave-one-out,2,ACC,0.6139162561576355
+98,98,leukemia,72,7070,relieff_wrapper,RandomForestClassifier(),20,Leave-one-out,2,ACC,0.9476600985221675
+99,99,leukemia,72,7070,relaxed_lasso_wrapper,RandomForestClassifier(),20,Leave-one-out,2,ACC,
+100,100,leukemia,72,7070,f_classif_wrapper,RandomForestClassifier(),50,Leave-one-out,2,ACC,0.9304187192118227
+101,101,leukemia,72,7070,RFE_wrapper,RandomForestClassifier(),50,Leave-one-out,2,ACC,0.6139162561576355
+102,102,leukemia,72,7070,relieff_wrapper,RandomForestClassifier(),50,Leave-one-out,2,ACC,0.9304187192118227
+103,103,leukemia,72,7070,relaxed_lasso_wrapper,RandomForestClassifier(),50,Leave-one-out,2,ACC,
+104,104,leukemia,72,7070,f_classif_wrapper,RandomForestClassifier(),100,Leave-one-out,2,ACC,0.8768472906403941
+105,105,leukemia,72,7070,RFE_wrapper,RandomForestClassifier(),100,Leave-one-out,2,ACC,0.5782019704433498
+106,106,leukemia,72,7070,relieff_wrapper,RandomForestClassifier(),100,Leave-one-out,2,ACC,0.9131773399014778
+107,107,leukemia,72,7070,relaxed_lasso_wrapper,RandomForestClassifier(),100,Leave-one-out,2,ACC,
+108,108,leukemia,72,7070,f_classif_wrapper,LogisticRegression(),1,Leave-one-out,2,ACC,0.7733990147783252
+109,109,leukemia,72,7070,RFE_wrapper,LogisticRegression(),1,Leave-one-out,2,ACC,0.6496305418719213
+110,110,leukemia,72,7070,relieff_wrapper,LogisticRegression(),1,Leave-one-out,2,ACC,0.7733990147783252
+111,111,leukemia,72,7070,relaxed_lasso_wrapper,LogisticRegression(),1,Leave-one-out,2,ACC,
+112,112,leukemia,72,7070,f_classif_wrapper,LogisticRegression(),2,Leave-one-out,2,ACC,0.8608374384236454
+113,113,leukemia,72,7070,RFE_wrapper,LogisticRegression(),2,Leave-one-out,2,ACC,0.6496305418719213
+114,114,leukemia,72,7070,relieff_wrapper,LogisticRegression(),2,Leave-one-out,2,ACC,0.8608374384236454
+115,115,leukemia,72,7070,relaxed_lasso_wrapper,LogisticRegression(),2,Leave-one-out,2,ACC,
+116,116,leukemia,72,7070,f_classif_wrapper,LogisticRegression(),3,Leave-one-out,2,ACC,0.8768472906403941
+117,117,leukemia,72,7070,RFE_wrapper,LogisticRegression(),3,Leave-one-out,2,ACC,0.6496305418719213
+118,118,leukemia,72,7070,relieff_wrapper,LogisticRegression(),3,Leave-one-out,2,ACC,0.8947044334975369
+119,119,leukemia,72,7070,relaxed_lasso_wrapper,LogisticRegression(),3,Leave-one-out,2,ACC,
+120,120,leukemia,72,7070,f_classif_wrapper,LogisticRegression(),4,Leave-one-out,2,ACC,0.8947044334975369
+121,121,leukemia,72,7070,RFE_wrapper,LogisticRegression(),4,Leave-one-out,2,ACC,0.6496305418719213
+122,122,leukemia,72,7070,relieff_wrapper,LogisticRegression(),4,Leave-one-out,2,ACC,0.9131773399014778
+123,123,leukemia,72,7070,relaxed_lasso_wrapper,LogisticRegression(),4,Leave-one-out,2,ACC,
+124,124,leukemia,72,7070,f_classif_wrapper,LogisticRegression(),5,Leave-one-out,2,ACC,0.8417487684729064
+125,125,leukemia,72,7070,RFE_wrapper,LogisticRegression(),5,Leave-one-out,2,ACC,0.6496305418719213
+126,126,leukemia,72,7070,relieff_wrapper,LogisticRegression(),5,Leave-one-out,2,ACC,0.9125615763546798
+127,127,leukemia,72,7070,relaxed_lasso_wrapper,LogisticRegression(),5,Leave-one-out,2,ACC,
+128,128,leukemia,72,7070,f_classif_wrapper,LogisticRegression(),10,Leave-one-out,2,ACC,0.8947044334975369
+129,129,leukemia,72,7070,RFE_wrapper,LogisticRegression(),10,Leave-one-out,2,ACC,0.6139162561576355
+130,130,leukemia,72,7070,relieff_wrapper,LogisticRegression(),10,Leave-one-out,2,ACC,0.9125615763546798
+131,131,leukemia,72,7070,relaxed_lasso_wrapper,LogisticRegression(),10,Leave-one-out,2,ACC,
+132,132,leukemia,72,7070,f_classif_wrapper,LogisticRegression(),20,Leave-one-out,2,ACC,0.8774630541871922
+133,133,leukemia,72,7070,RFE_wrapper,LogisticRegression(),20,Leave-one-out,2,ACC,0.5960591133004927
+134,134,leukemia,72,7070,relieff_wrapper,LogisticRegression(),20,Leave-one-out,2,ACC,0.9298029556650247
+135,135,leukemia,72,7070,relaxed_lasso_wrapper,LogisticRegression(),20,Leave-one-out,2,ACC,
+136,136,leukemia,72,7070,f_classif_wrapper,LogisticRegression(),50,Leave-one-out,2,ACC,0.9119458128078818
+137,137,leukemia,72,7070,RFE_wrapper,LogisticRegression(),50,Leave-one-out,2,ACC,0.6483990147783252
+138,138,leukemia,72,7070,relieff_wrapper,LogisticRegression(),50,Leave-one-out,2,ACC,0.8768472906403941
+139,139,leukemia,72,7070,relaxed_lasso_wrapper,LogisticRegression(),50,Leave-one-out,2,ACC,
+140,140,leukemia,72,7070,f_classif_wrapper,LogisticRegression(),100,Leave-one-out,2,ACC,0.9298029556650247
+141,141,leukemia,72,7070,RFE_wrapper,LogisticRegression(),100,Leave-one-out,2,ACC,0.666871921182266
+142,142,leukemia,72,7070,relieff_wrapper,LogisticRegression(),100,Leave-one-out,2,ACC,0.9119458128078818
+143,143,leukemia,72,7070,relaxed_lasso_wrapper,LogisticRegression(),100,Leave-one-out,2,ACC,
+144,144,leukemia,72,7070,f_classif_wrapper,KNeighborsClassifier(),1,Leave-one-out,2,ACC,0.7733990147783252
+145,145,leukemia,72,7070,RFE_wrapper,KNeighborsClassifier(),1,Leave-one-out,2,ACC,0.6139162561576355
+146,146,leukemia,72,7070,relieff_wrapper,KNeighborsClassifier(),1,Leave-one-out,2,ACC,0.7733990147783252
+147,147,leukemia,72,7070,relaxed_lasso_wrapper,KNeighborsClassifier(),1,Leave-one-out,2,ACC,
+148,148,leukemia,72,7070,f_classif_wrapper,KNeighborsClassifier(),2,Leave-one-out,2,ACC,0.7536945812807883
+149,149,leukemia,72,7070,RFE_wrapper,KNeighborsClassifier(),2,Leave-one-out,2,ACC,0.6139162561576355
+150,150,leukemia,72,7070,relieff_wrapper,KNeighborsClassifier(),2,Leave-one-out,2,ACC,0.7536945812807883
+151,151,leukemia,72,7070,relaxed_lasso_wrapper,KNeighborsClassifier(),2,Leave-one-out,2,ACC,
+152,152,leukemia,72,7070,f_classif_wrapper,KNeighborsClassifier(),3,Leave-one-out,2,ACC,0.8054187192118227
+153,153,leukemia,72,7070,RFE_wrapper,KNeighborsClassifier(),3,Leave-one-out,2,ACC,0.6311576354679802
+154,154,leukemia,72,7070,relieff_wrapper,KNeighborsClassifier(),3,Leave-one-out,2,ACC,0.8589901477832512
+155,155,leukemia,72,7070,relaxed_lasso_wrapper,KNeighborsClassifier(),3,Leave-one-out,2,ACC,
+156,156,leukemia,72,7070,f_classif_wrapper,KNeighborsClassifier(),4,Leave-one-out,2,ACC,0.8947044334975369
+157,157,leukemia,72,7070,RFE_wrapper,KNeighborsClassifier(),4,Leave-one-out,2,ACC,0.6311576354679802
+158,158,leukemia,72,7070,relieff_wrapper,KNeighborsClassifier(),4,Leave-one-out,2,ACC,0.8762315270935961
+159,159,leukemia,72,7070,relaxed_lasso_wrapper,KNeighborsClassifier(),4,Leave-one-out,2,ACC,
+160,160,leukemia,72,7070,f_classif_wrapper,KNeighborsClassifier(),5,Leave-one-out,2,ACC,0.8589901477832512
+161,161,leukemia,72,7070,RFE_wrapper,KNeighborsClassifier(),5,Leave-one-out,2,ACC,0.6305418719211823
+162,162,leukemia,72,7070,relieff_wrapper,KNeighborsClassifier(),5,Leave-one-out,2,ACC,0.8577586206896552
+163,163,leukemia,72,7070,relaxed_lasso_wrapper,KNeighborsClassifier(),5,Leave-one-out,2,ACC,
+164,164,leukemia,72,7070,f_classif_wrapper,KNeighborsClassifier(),10,Leave-one-out,2,ACC,0.8934729064039408
+165,165,leukemia,72,7070,RFE_wrapper,KNeighborsClassifier(),10,Leave-one-out,2,ACC,0.7019704433497538
+166,166,leukemia,72,7070,relieff_wrapper,KNeighborsClassifier(),10,Leave-one-out,2,ACC,0.8947044334975369
+167,167,leukemia,72,7070,relaxed_lasso_wrapper,KNeighborsClassifier(),10,Leave-one-out,2,ACC,
+168,168,leukemia,72,7070,f_classif_wrapper,KNeighborsClassifier(),20,Leave-one-out,2,ACC,0.8940886699507389
+169,169,leukemia,72,7070,RFE_wrapper,KNeighborsClassifier(),20,Leave-one-out,2,ACC,0.6317733990147784
+170,170,leukemia,72,7070,relieff_wrapper,KNeighborsClassifier(),20,Leave-one-out,2,ACC,0.9125615763546798
+171,171,leukemia,72,7070,relaxed_lasso_wrapper,KNeighborsClassifier(),20,Leave-one-out,2,ACC,
+172,172,leukemia,72,7070,f_classif_wrapper,KNeighborsClassifier(),50,Leave-one-out,2,ACC,0.8940886699507389
+173,173,leukemia,72,7070,RFE_wrapper,KNeighborsClassifier(),50,Leave-one-out,2,ACC,0.6305418719211823
+174,174,leukemia,72,7070,relieff_wrapper,KNeighborsClassifier(),50,Leave-one-out,2,ACC,0.8947044334975369
+175,175,leukemia,72,7070,relaxed_lasso_wrapper,KNeighborsClassifier(),50,Leave-one-out,2,ACC,
+176,176,leukemia,72,7070,f_classif_wrapper,KNeighborsClassifier(),100,Leave-one-out,2,ACC,0.8934729064039408
+177,177,leukemia,72,7070,RFE_wrapper,KNeighborsClassifier(),100,Leave-one-out,2,ACC,0.6841133004926109
+178,178,leukemia,72,7070,relieff_wrapper,KNeighborsClassifier(),100,Leave-one-out,2,ACC,0.9113300492610837
+179,179,leukemia,72,7070,relaxed_lasso_wrapper,KNeighborsClassifier(),100,Leave-one-out,2,ACC,

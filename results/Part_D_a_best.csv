@@ -1,0 +1,8 @@
+,Unnamed: 0,index,Dataset Name,Number of samples,Original Number of features,Filtering Algorithm,Learning algorithm,Number of features selected (K),CV Method,Fold,Measure Type,Measure Value
+56,56,56,khan,63,2308,f_classif,"SVC(C=0.1, kernel='linear', probability=True, random_state=0)",10,Leave-one-out,2,AUC,1
+128,128,128,khan,63,2308,f_classif,LogisticRegression(),10,Leave-one-out,2,AUC,1
+122,122,122,leukemia,72,7070,relieff,LogisticRegression(),4,Leave-one-out,2,AUC,0.979930888
+6,6,6,cll,22,12625,relieff,GaussianNB(),2,Leave-pair-out,2,AUC,0.8
+59,59,59,bladderbatch,57,22283,relaxed_lasso,SVC(),10,Leave-one-out,2,AUC,0.987809073
+142,142,142,sorlie,85,456,relieff,"LogisticRegression(C=0.1, random_state=0)",100,Leave-one-out,2,AUC,0.979212454
+28,28,28,subramanian,50,10100,f_classif,GaussianNB(),50,Leave-one-out,2,AUC,0.749375
